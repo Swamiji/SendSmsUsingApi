@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.sendsmsusingapi.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_sender"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TXTLCL"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/ic_send_black_24dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Number"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_below="@id/edit_sender"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Message"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_below="@id/edit_number"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/ic_message_black_24dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="send"
+        android:layout_below="@+id/edit_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:textSize="20dp"
+
+
+        />
+</RelativeLayout>
